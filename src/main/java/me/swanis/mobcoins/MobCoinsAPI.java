@@ -6,7 +6,7 @@ import me.swanis.mobcoins.reward.RewardManager;
 import me.swanis.mobcoins.storage.Storable;
 import org.bukkit.inventory.ItemStack;
 
-public abstract class MobCoinsAPI {
+public class MobCoinsAPI {
 
     private static MobCoins instance;
 
