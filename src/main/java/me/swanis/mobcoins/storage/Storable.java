@@ -2,12 +2,12 @@ package me.swanis.mobcoins.storage;
 
 import org.bukkit.entity.Player;
 
-public abstract class Storable {
+public interface Storable {
 
-    public abstract void init();
+    void init();
 
-    public abstract void loadProfile(Player player);
+    void loadProfile(Player player);
 
-    public abstract void saveProfile(Player player);
+    void saveProfile(Player player);
 
 }
