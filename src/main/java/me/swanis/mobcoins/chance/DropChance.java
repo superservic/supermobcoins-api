@@ -2,6 +2,6 @@ package me.swanis.mobcoins.chance;
 
 public abstract class DropChance {
 
-    public abstract int getChance();
+    public abstract double getChance();
 
 }
