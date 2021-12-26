@@ -6,8 +6,8 @@ public abstract class Profile {
 
     public abstract Player getPlayer();
 
-    public abstract int getMobCoins();
+    public abstract long getMobCoins();
 
-    public abstract void setMobCoins(int mobCoins);
+    public abstract void setMobCoins(long mobCoins);
 
 }
